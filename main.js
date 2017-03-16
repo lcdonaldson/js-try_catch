@@ -1,7 +1,7 @@
 function myFunction() {
     var message, x;
     message = document.getElementById("message");
-    message.setAttribute("class", "err-color")
+    message.setAttribute("class", "err-color");
     message.innerHTML = "";
     x = document.getElementById("demo").value;
     try { 
